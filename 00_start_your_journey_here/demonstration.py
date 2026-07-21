@@ -28,10 +28,10 @@ all the tests pass.
 
 def count_to_two():
     counter = 0
-    counter += 1  # <- change this!!
+    counter += 2  # <- change this!!
     return counter
 
-
+exit
 @run_test
 def count_to_two_should_return_integer():
     result = count_to_two()
